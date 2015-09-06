@@ -33,7 +33,7 @@ Date& init(Date &d, int day, int month, int year)
     return d;
 }
 
-int main()
+void f_5_13()
 {
     Date d;
     init(d, 1, 11, 1988);

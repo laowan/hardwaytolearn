@@ -9,7 +9,7 @@ typedef IntPtr IntPtrArray[7];
 typedef IntPtrArray* IntPtrArrayPtr;
 typedef IntPtr Array87IntPtr[8][7];
 
-int main()
+void f_5_3()
 {
 
 }

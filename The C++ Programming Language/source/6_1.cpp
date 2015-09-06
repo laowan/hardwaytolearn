@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int main()
+void f_6_1()
 {
 	const int max_length = 21;
 	char input_line[max_length] = "1?2?3?4?5?6?7?8?9?0?";

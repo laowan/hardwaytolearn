@@ -1,6 +1,6 @@
 #include <iostream>
 
-int main()
+void f_4_4()
 {
     char ch = 0;
     for (int i = 0; i < 256; i++)

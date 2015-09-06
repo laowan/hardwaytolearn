@@ -9,7 +9,7 @@ void print(string str)
     cout << str << endl;
 }
 
-int main()
+void f_5_11()
 {
     vector<string> words;
     string word;

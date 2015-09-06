@@ -19,7 +19,7 @@ size_t substr_count(const string &str, char a, char b)
     return cnt;
 }
 
-int main()
+void f_5_12()
 {
     cout << substr_count("xabaacbaxabb", 'a', 'b');
 }

@@ -1,6 +1,6 @@
 #include <iostream>
 
-int main()
+void f_5_1()
 {
     char ch = 'a';
     char *pch = &ch;

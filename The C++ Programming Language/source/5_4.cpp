@@ -16,7 +16,7 @@ void swap_ref(int &a, int &b)
     b = tmp;
 }
 
-int main()
+void f_5_4()
 {
     int a = 1, b = 2;
     cout << "a=" << a <<",b=" << b << endl;

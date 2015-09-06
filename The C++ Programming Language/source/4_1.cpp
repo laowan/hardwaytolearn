@@ -1,6 +1,6 @@
 #include <iostream>
 
-int main()
+void f_4_1()
 {
     std::cout << "Hello, world!\n";
 }

@@ -7,7 +7,7 @@ enum E
     E_THREE
 };
 
-int main()
+void f_4_3()
 {
     std::cout << "bool " << sizeof(bool) << std::endl;
     std::cout << "char " << sizeof(char) << std::endl;
