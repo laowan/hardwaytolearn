@@ -1,0 +1,1 @@
+extern void func_chapter_8();
