@@ -1,12 +1,12 @@
 #include <iostream>
 
 template<class T>
-class Array
+class Array12
 {
 public:
-    Array() : data(0), sz(0) {}
-    Array(unsigned int size) : sz(size), data(new T[size]) {}
-    ~Array() { delete[] data; }
+    Array12() : data(0), sz(0) {}
+    Array12(unsigned int size) : sz(size), data(new T[size]) {}
+    ~Array12() { delete[] data; }
 
     const T& operator[] (unsigned int n) const
     {
@@ -35,14 +35,14 @@ public:
 private:
     T* data;
     unsigned int sz;
-    Array(const Array&);
-    Array& operator=(const Array&);
+    Array12(const Array12&);
+    Array12& operator=(const Array12&);
 };
 
 void func_chapter_12()
 {
     unsigned int N = 10;
-    Array<int> x(N);
+    Array12<int> x(N);
     for (unsigned int i = 0; i < N; i++)
     {
         x[i] = 5;

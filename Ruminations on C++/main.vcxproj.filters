@@ -24,9 +24,15 @@
     <ClCompile Include="source\chapter12.cpp">
       <Filter>source</Filter>
     </ClCompile>
+    <ClCompile Include="source\chapter13.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Array.h">
       <Filter>header</Filter>
     </ClInclude>
   </ItemGroup>
