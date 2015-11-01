@@ -27,6 +27,12 @@
     <ClCompile Include="source\chapter13.cpp">
       <Filter>source</Filter>
     </ClCompile>
+    <ClCompile Include="source\chapter28.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\chapter29.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main.h">
