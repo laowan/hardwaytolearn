@@ -83,6 +83,7 @@
     <ClCompile Include="source\chapter28.cpp" />
     <ClCompile Include="source\chapter29.cpp" />
     <ClCompile Include="source\chapter8.cpp" />
+    <ClCompile Include="source\chapter9.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main.h" />
