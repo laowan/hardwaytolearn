@@ -36,6 +36,9 @@
     <ClCompile Include="source\chapter9.cpp">
       <Filter>source</Filter>
     </ClCompile>
+    <ClCompile Include="source\chapter10.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main.h">

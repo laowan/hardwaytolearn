@@ -78,6 +78,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="source\chapter10.cpp" />
     <ClCompile Include="source\chapter12.cpp" />
     <ClCompile Include="source\chapter13.cpp" />
     <ClCompile Include="source\chapter28.cpp" />
