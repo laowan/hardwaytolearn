@@ -81,6 +81,7 @@
     <ClCompile Include="source\chapter10.cpp" />
     <ClCompile Include="source\chapter12.cpp" />
     <ClCompile Include="source\chapter13.cpp" />
+    <ClCompile Include="source\chapter15.cpp" />
     <ClCompile Include="source\chapter28.cpp" />
     <ClCompile Include="source\chapter29.cpp" />
     <ClCompile Include="source\chapter8.cpp" />
