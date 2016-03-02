@@ -57,6 +57,9 @@
     <ClCompile Include="source\5_4.cpp">
       <Filter>Source Files\source</Filter>
     </ClCompile>
+    <ClCompile Include="source\6_3.cpp">
+      <Filter>Source Files\source</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main.h">
