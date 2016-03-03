@@ -89,6 +89,7 @@
     <ClCompile Include="source\5_4.cpp" />
     <ClCompile Include="source\5_7.cpp" />
     <ClCompile Include="source\6_1.cpp" />
+    <ClCompile Include="source\6_10.cpp" />
     <ClCompile Include="source\6_3.cpp" />
   </ItemGroup>
   <ItemGroup>
