@@ -162,7 +162,7 @@ def testRosa(file):
     plt.figure(figsize=(8, 4))
     plt.plot(times, librosa.util.normalize(onset_env), label='Onset strength')
     plt.vlines(times[beats], 0, 0.95, alpha=0.5, color='r', linestyle='--', label='Beats')
-    plt.vlines(times[onset_frames], 0.95, 1, alpha=0.5, color='g', linestyle='--', label='Onsets')
+    plt.vlines(times[onset_frames], 0.95, 1, alpha=0.5, color='g', linestyle='-', label='Onsets')
     
     print(len(onset_frames))
     print(len(onset_env))
@@ -174,6 +174,11 @@ def testRosa(file):
     
     #plt.vlines(times[peaks], 0.95, 1, alpha=0.5, color='b', linestyle='--', label='Peak')
     
+    for i in range(0, len(beats)):
+        frameIdx = beats[i]
+        print(int(times[frameIdx] * 1000 + 0.5))
+    
+    print("---")
     frames = []
     norm_onset_env = librosa.util.normalize(onset_env)
     for i in range(0, len(peaks)):
@@ -183,11 +188,11 @@ def testRosa(file):
             print(int(times[frameIdx] * 1000 + 0.5))
             frames.append(frameIdx)
             
-    plt.vlines(times[frames], 0., 1, alpha=1., color='r', linestyle='--', label='Peak')
+    plt.vlines(times[frames], 0.9, 0.95, alpha=1., color='r', linestyle='-', label='Peak')
       
     plt.legend(frameon=True, framealpha=0.75)
     # Limit the plot to a 15-second window
-    plt.xlim(0, 10)
+    plt.xlim(0, 16)
     plt.gca().xaxis.set_major_formatter(librosa.display.TimeFormatter())
     plt.tight_layout()
     plt.show()
@@ -205,7 +210,7 @@ def getBeats(filename):
 
 if __name__ == '__main__':
     #generateFromUrl("http://shenqutv2.bs2dl.yy.com/08a4ddb7-b817-4481-a1ef-6ee678eecfe7.mp3", "../bs2/")
-    testRosa("bgm.mp3")
+    testRosa("out.mp3")
     
     
     
