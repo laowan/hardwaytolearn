@@ -59,6 +59,10 @@
      <Compile Include="Assets\Custom RP\Runtime\CameraRenderer.cs" />
      <Compile Include="Assets\Custom RP\Runtime\CustomRenderPipeline.cs" />
      <Compile Include="Assets\Custom RP\Runtime\CustomRenderPipelineAsset.cs" />
+     <None Include="Assets\Custom RP\ShaderLibrary\UnityInput.hlsl" />
+     <None Include="Assets\Custom RP\Shaders\Unlit.shader" />
+     <None Include="Assets\Custom RP\ShaderLibrary\Common.hlsl" />
+     <None Include="Assets\Custom RP\Shaders\UnlitPass.hlsl" />
  <Reference Include="UnityEngine">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.13f1c1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
  </Reference>
@@ -613,6 +617,15 @@
  </Reference>
  <Reference Include="UnityEditor.UI">
  <HintPath>D:/github/hardwaytolearn/unity/CustomRP/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.RenderPipelines.Core.Editor">
+ <HintPath>D:/github/hardwaytolearn/unity/CustomRP/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.RenderPipelines.Core.Runtime">
+ <HintPath>D:/github/hardwaytolearn/unity/CustomRP/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
+ <HintPath>D:/github/hardwaytolearn/unity/CustomRP/Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
